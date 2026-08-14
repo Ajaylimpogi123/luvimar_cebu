@@ -128,9 +128,10 @@ include 'add_category.php';
 				}
 				?>
 				<fieldset>
-					<div class="control-group">
+					
+					<div class="control-group" >
 						<label class="control-label" for="focusedInput">Expense Name</label>
-						<div class="controls">
+						<div class="controls" style="display: flex; align-items: left;">
 							<select id="selectError4" name="exp_cat" id="pid" data-rel="chosen" required>
 								<option value="">-SELECT-</b></option>
 								<?php
@@ -148,7 +149,10 @@ include 'add_category.php';
 							</select>
 
 							<div id="status"></div>
+												&nbsp;&nbsp;
+						<a href="index.php?view=cat" class="btn btn-success">Add Expense Name -></a>
 						</div>
+		
 					</div>
 
 

@@ -93,7 +93,7 @@ $errorMessage = (isset($_GET['error']) && $_GET['error'] != '') ? $_GET['error']
 
 						<div class="control-group">
 						<label class="control-label" for="focusedInput">Product Name</label>
-						<div class="controls">
+						<div class="controls" style="display: flex; align-items: left;">
 							<?php 
 							$name = $conn->prepare("SELECT * FROM tr_name WHERE is_deleted != '1' ORDER BY prod_name");
 							$name->execute();
@@ -112,6 +112,7 @@ $errorMessage = (isset($_GET['error']) && $_GET['error'] != '') ? $_GET['error']
 										?>
 								</select>
 							<div id="status"></div>
+								&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php?view=addnamelist" class="btn btn-success">Add Product Name</a>
 						</div>
 					</div>
 

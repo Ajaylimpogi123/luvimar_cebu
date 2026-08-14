@@ -135,8 +135,7 @@ $balance = $bg_data['totalbg'] - $ex_data['totalex'];
 			<?php if ($user_data['is_exp_a_access'] == 1) { ?>
 				&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php?view=add" class="btn btn-success">Add Expense</a>
 				<!-- &nbsp;&nbsp;&nbsp;&nbsp;<a href="beginning.php" class="btn btn-warning nyroModal">Beginning Balance</a> -->
-				&nbsp;&nbsp;
-				<a href="index.php?view=cat" class="btn btn-primary">Go to Expense Name -></a>
+			
 			<?php } else {
 			} ?>
 			<div class="box-icon">

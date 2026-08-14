@@ -22,7 +22,7 @@ $errorMessage = (isset($_GET['error']) && $_GET['error'] != '') ? $_GET['error']
 			<h2><i class="icon-th"></i> List of Products</h2>
 			<?php if ($user_data['is_prod_a_access'] == 1) { ?>
 				&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:add();" class="btn btn-success">Add New</a>
-				&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php?view=addnamelist" class="btn btn-success">Add Name</a>
+			
 			<?php } else {
 			} ?>
 			<div class="box-icon">
