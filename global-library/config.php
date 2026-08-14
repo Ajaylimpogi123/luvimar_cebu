@@ -10,16 +10,16 @@ session_start();
 $dbHost = 'localhost';
 $dbUser = 'root';
 $dbPass = '';
-$dbName = 'db_luvimar';
+$dbName = 'db_luvimar_cebu';
 
 $con  = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 
 // setting up the web root and server root for this website application
 $thisFile = str_replace('\\', '/', __FILE__);
-$docRoot = '/luvimar/';
+$docRoot = '/luvimar_cebu/';
 
 $srvRoot  = str_replace('global-library/config.php', '', $thisFile);
-$webRoot  = '/luvimar/';
+$webRoot  = '/luvimar_cebu/';
 
 define('WEB_ROOT', $webRoot);
 define('SRV_ROOT', $srvRoot);

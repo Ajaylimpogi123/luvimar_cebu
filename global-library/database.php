@@ -10,7 +10,7 @@ $today_date3 = date("M d, Y");
 $dbHost = 'localhost';
 $dbUser = 'root';
 $dbPass = '';
-$dbName = 'db_luvimar';
+$dbName = 'db_luvimar_cebu';
 
 
 
